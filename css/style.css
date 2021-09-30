@@ -19,13 +19,28 @@ footer h5{
   font-size: 0.9rem;
 }
 
-
-/************************************************************** CLASSI **************************************************************/
 img {
-  height: 16px;
-  
+  max-width: 100%;
 }
 
+
+/************************************************************** CLASSI **************************************************************/
+
+/* header */
+
+.sony_logo_img {
+  height: 16px; 
+}
+
+.nav_chevron-down {
+  width: 10px;
+}
+
+.nav_lens {
+  width: 20px;
+}
+
+/* main */
 
 /******************************* LAYOUT *******************************/
 
@@ -53,6 +68,9 @@ img {
 .my_btn_sign-in {
   background-color: #363636;
   border-color: #363636;
+  color: white !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
 }
 .my_btn_more {
   background-color: #2D64E6;
@@ -136,3 +154,13 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 } */
+
+
+/******************** Media queries ********************/
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+  }
+}
