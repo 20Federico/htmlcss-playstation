@@ -79,6 +79,15 @@ img {
   margin-bottom: 15px;
 }
 
+.hero_section_style {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: top;
+}
+
+.it_takes_two_logo {
+  width: 60%;
+}
+
 /******************************* LAYOUT *******************************/
 
 
