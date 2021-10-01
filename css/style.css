@@ -88,7 +88,9 @@ img {
   width: 60%;
 }
 
-/******************************* LAYOUT *******************************/
+.my_card h5 {
+  margin-top: 15px;
+}
 
 
 /******************************* UTILITIES *******************************/
@@ -159,9 +161,9 @@ img {
 .text_dark {
   color: #1F1F1F;
 }
-.text_blue-sky {
+/* .text_blue-sky {
   color: #2D64E6;
-}
+} */
 .text_grey {
   color: #5a5858;
 }
