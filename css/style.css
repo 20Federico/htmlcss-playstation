@@ -84,7 +84,8 @@ img {
   background-position: top;
 }
 
-.it_takes_two_logo {
+.it_takes_two_logo,
+.ps-plus_logo {
   width: 60%;
 }
 
@@ -130,8 +131,6 @@ img {
   color: black;
 }
 .my_btn_explore-v2 {
-  background-color: #D9DADC;
-  border-color: #D9DADC;
   color: #2D64E6;
 }
 
