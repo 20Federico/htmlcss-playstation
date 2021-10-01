@@ -121,8 +121,8 @@ img {
   padding-right: 14px !important;
 }
 .my_btn_more {
-  background-color: #2D64E6;
-  border-color: #2D64E6;
+  background-color: #0072ce;
+  border-color: #0072ce;
 }
 .my_btn_explore {
   background-color: #F5F5F5;
@@ -132,7 +132,7 @@ img {
 .my_btn_explore-v2 {
   background-color: #D9DADC;
   border-color: #D9DADC;
-  color: #698FEC;
+  color: #2D64E6;
 }
 
 .my_btn_buy:hover {
