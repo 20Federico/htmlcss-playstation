@@ -42,6 +42,31 @@ img {
 
 /* main */
 
+.hero_section {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
+  color: white;
+}
+
+.returnal_logo {
+  width: 60%;
+  padding-top: 200px;
+}
+
+.my_card {
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.my_card img {
+  border-radius: 15px;
+}
+
+.my_card:focus {
+  border: 2px solid #0072ce;
+}
+
+
 /******************************* LAYOUT *******************************/
 
 
@@ -145,16 +170,25 @@ img {
 }
 
 /* containers */
-/* 
-.container_p-large {
+
+.container_p-big {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.container_p-medium {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.container_p-medium {
+.container_p-small {
   padding-top: 30px;
   padding-bottom: 30px;
-} */
+}
 
+/* spacing */
+
+.margin_bottom_25 {
+  margin-bottom: 25px;
+}
 
 /******************** Media queries ********************/
 
