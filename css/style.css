@@ -45,7 +45,6 @@ img {
 .hero_section {
   background-image: url(../img/jumbo-bg.png);
   background-position: top;
-  color: white;
 }
 
 .returnal_logo {
@@ -141,14 +140,16 @@ img {
 .text_blue-sky {
   color: #2D64E6;
 }
-.text_cyan {
-  color: #0072ce;
-}
 .text_grey {
-  color: #727272;
+  color: #5a5858;
 }
 .text_white {
   color: white;
+}
+
+.text_super {
+  color: #0072ce;
+  font-size: 14px;
 }
 
 /* backgrounds */
@@ -167,6 +168,9 @@ img {
 }
 .bg_grey {
   background-color: #BEBCBB;
+}
+.bg_white {
+  background-color: white;
 }
 
 /* containers */
