@@ -15,14 +15,30 @@ h4{
 h5{
   font-size: small;
 }
-footer h5{
-  font-size: 0.9rem;
-}
 
 img {
   max-width: 100%;
 }
 
+footer {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  font-size: .9rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+footer {
+  font-size: .9rem;
+}
 
 /************************************************************** CLASSI **************************************************************/
 
@@ -94,6 +110,21 @@ img {
   margin-top: 15px;
 }
 
+/* footer */
+
+.footer_logo {
+  margin-bottom: 40px;
+  width: 100px;
+}
+
+.sie_logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer_more_info {
+  text-decoration: underline;
+}
 
 /******************************* UTILITIES *******************************/
 
@@ -161,9 +192,6 @@ img {
 .text_dark {
   color: #1F1F1F;
 }
-/* .text_blue-sky {
-  color: #2D64E6;
-} */
 .text_grey {
   color: #5a5858;
 }
