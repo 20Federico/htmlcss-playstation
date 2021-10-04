@@ -26,9 +26,6 @@ img {
 nav {
   position: relative;
 }
-nav a {
-  white-space: nowrap;
-}
 
 footer {
   padding-top: 80px;
@@ -58,8 +55,13 @@ footer {
   height: 16px; 
 }
 
-.nav_chevron-down {
+.nav_chevron-down,
+.nav_chevron-down_hover {
   width: 10px;
+}
+
+.nav_chevron-down_hover {
+  display: none;
 }
 
 .nav_lens {
@@ -81,6 +83,26 @@ footer {
   padding: .5rem 0;
 }
 
+.nav-link {
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: #0072ce !important;
+}
+.nav-link:hover .nav_chevron-down_hover {
+  display: initial;
+}
+.nav-link:hover .nav_chevron-down {
+  display: none;
+}
+
+.nav-link img {
+  transition: .3s;
+}
+.nav-link:focus img {
+  transform: rotate(180deg);
+}
 
 /* main */
 
@@ -95,8 +117,11 @@ footer {
 }
 
 .my_card {
+  position: relative;
+  bottom: 0;
   padding: 3px;
   border-radius: 20px;
+  transition: .3s;
 }
 
 .my_card img {
@@ -105,6 +130,10 @@ footer {
 
 .my_card:focus {
   border: 2px solid #0072ce;
+}
+
+.my_card:hover {
+  bottom: 15px;
 }
 
 .my_card_v2 {
@@ -179,6 +208,7 @@ footer {
   border-radius: 50px;
   padding: 0 14px;
   color: white;
+  border-style: none;
   transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
@@ -208,23 +238,19 @@ footer {
 
 .my_btn_buy:hover {
   background-color: #bb380d;
-  border-color: #bb380d;
 }
 .my_btn_sign-in:hover {
   background-color: #1f1e1e;
-  border-color: #1f1e1e;
+  color: white !important;
 }
 .my_btn_more:hover {
   background-color: #2757c7;
-  border-color: #2757c7;
 }
 .my_btn_explore:hover {
   background-color: #c4c0c0;
-  border-color: #c4c0c0;
 }
 .my_btn_explore-v2:hover {
   background-color: #a9abad;
-  border-color: #a9abad;
 }
 
 /* texts */
