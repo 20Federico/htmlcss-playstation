@@ -1,0 +1,83 @@
+/* tag */
+
+main {
+  background-image: url(../img/sign_in_background.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid rgb(167, 166, 166);
+}
+
+form button {
+  width: 100%;
+  padding: 8px;
+  border-style: none;
+  border-radius: 2px;
+}
+
+form button.bg-white {
+  border: 1px solid rgb(167, 166, 166);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* classi */
+
+.form_container {
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  min-height: 560px;
+  font-size: 13px;
+}
+
+.close_btn {
+  position: absolute;
+  right: 0;
+}
+
+.fa-times {
+  color: rgb(163, 159, 159);
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.close_btn:hover .fa-times {
+  color: white;
+}
+
+.form_box {
+  padding: 15px 30px;
+}
+
+.btn_blue {
+  background-color: #3E66D5;
+  color: white;
+  font-weight: bold;
+}
+
+
+.btn_blue:hover {
+  background-color: #3151AA;
+}
+
+.form_foot {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(163, 159, 159);
+}
