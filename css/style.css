@@ -23,6 +23,13 @@ img {
   max-width: 100%;
 }
 
+nav {
+  position: relative;
+}
+nav a {
+  white-space: nowrap;
+}
+
 footer {
   padding-top: 80px;
   padding-bottom: 90px;
@@ -58,6 +65,22 @@ footer {
 .nav_lens {
   width: 20px;
 }
+
+.my_dropdown_menu {
+  position: absolute;
+  top: -200px;
+  left: 0;
+  right: 0;
+  list-style: none;
+  background-color: white;
+  z-index: -1;
+  transition: all 1s;
+}
+.nav-item .nav-link:focus + .my_dropdown_menu {
+  top: 100%;
+  padding: .5rem 0;
+}
+
 
 /* main */
 
