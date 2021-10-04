@@ -19,10 +19,6 @@ h5{
   font-size: small;
 }
 
-a:hover {
-  color: white;
-}
-
 img {
   max-width: 100%;
 }
@@ -49,6 +45,10 @@ footer a {
 
 footer {
   font-size: .9rem;
+}
+
+footer a:hover {
+  color: white;
 }
 
 /************************************************************** CLASSI **************************************************************/
