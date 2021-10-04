@@ -100,7 +100,7 @@ footer {
 .nav-link img {
   transition: .3s;
 }
-.nav-link:focus img {
+.nav-link:focus img:not([class="nav_lens"]) {
   transform: rotate(180deg);
 }
 
@@ -200,7 +200,7 @@ footer {
 /* Buttons */
 .my_btn {
   display: inline-block;
-  line-height: 36px;
+  line-height: 30px;
   font-weight: bold;
   font-size: 13px;
   text-align: center;
@@ -214,44 +214,56 @@ footer {
 
 .my_btn_buy {
   background-color: #CD3D0F;
-  border-color: #CD3D0F;
 }
 .my_btn_sign-in {
   background-color: #363636;
-  border-color: #363636;
   color: white !important;
-  padding-left: 14px !important;
-  padding-right: 14px !important;
 }
 .my_btn_more {
   background-color: #0072ce;
-  border-color: #0072ce;
 }
 .my_btn_explore {
   background-color: #F5F5F5;
-  border-color: #F5F5F5;
   color: black;
 }
 .my_btn_explore-v2 {
   color: #2D64E6;
 }
 
-.my_btn_buy:hover {
-  background-color: #bb380d;
-}
 .my_btn_sign-in:hover {
-  background-color: #1f1e1e;
+  background-color: #5a5858;
   color: white !important;
 }
-.my_btn_more:hover {
-  background-color: #2757c7;
+
+/* btn effect */
+.btn_container,
+.btn_border {
+  display: inline-block;
+  border-radius: 50px;
+  border: 2px solid;
+  transition: .5s;
 }
-.my_btn_explore:hover {
-  background-color: #c4c0c0;
+
+.btn_border_buy {
+  border-color: #CD3D0F;
 }
-.my_btn_explore-v2:hover {
-  background-color: #a9abad;
+.btn_border_sign-in {
+  border-color: #363636;
 }
+.btn_border_more {
+  border-color: #0072ce;
+}
+.btn_border_explore {
+  border-color: #F5F5F5;
+}
+
+.btn_container:hover .btn_border {
+  border-color: transparent;
+}
+
+
+
+
 
 /* texts */
 
