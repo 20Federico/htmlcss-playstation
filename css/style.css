@@ -4,10 +4,13 @@
 
 /************************************************************** TAG **************************************************************/
 h2{
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
+  font-size: 2rem;
+
 }
 h3{
-  font-size: 2.3rem;
+  /* font-size: 2.3rem; */
+  font-size: 1.7rem;
 }
 h4{
   font-size: 1.3rem;
@@ -85,6 +88,7 @@ footer {
   opacity: .8;
   font-size: 14px;
   border-bottom: 2px solid transparent;
+  height: 100%;
 }
 .my_card_v2:focus {
   opacity: 1;
@@ -93,6 +97,10 @@ footer {
 
 .my_card_v2 img {
   margin-bottom: 15px;
+}
+
+.card_description {
+  display: none;
 }
 
 .hero_section_style {
@@ -108,6 +116,15 @@ footer {
 
 .my_card h5 {
   margin-top: 15px;
+}
+
+.box {
+  height: 100%;
+}
+
+.position_bottom {
+  position: sticky;
+  top: 100%;
 }
 
 /* footer */
@@ -254,3 +271,19 @@ footer {
       padding-left: 1rem;
   }
 }
+
+@media (min-width: 768px) {
+  .card_description {
+    display: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2.3rem;
+  }
+}
+
