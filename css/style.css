@@ -19,6 +19,10 @@ h5{
   font-size: small;
 }
 
+a:hover {
+  color: white;
+}
+
 img {
   max-width: 100%;
 }
@@ -128,11 +132,11 @@ footer {
   border-radius: 15px;
 }
 
-.my_card:focus {
+.hero_section_cards .my_card:focus {
   border: 2px solid #0072ce;
 }
 
-.my_card:hover {
+.hero_section_cards .my_card:hover {
   bottom: 15px;
 }
 
@@ -141,6 +145,9 @@ footer {
   font-size: 14px;
   border-bottom: 2px solid transparent;
   height: 100%;
+}
+.my_card_v2:hover {
+  opacity: 1;
 }
 .my_card_v2:focus {
   opacity: 1;
@@ -177,6 +184,28 @@ footer {
 .position_bottom {
   position: sticky;
   top: 100%;
+}
+
+.discount_box img{
+  border-radius: 10px;
+  filter: brightness(.8);
+  transition: .3s;
+}
+.discount_box:hover img {
+  filter: brightness(1);
+}
+
+.new_releases .my_card:hover {
+  transform: scale(1.1);
+}
+
+.social_container .box img{
+  border-radius: 20%;
+  transition: .3s;
+}
+
+.social_container .box:hover img{
+  border-radius: 50%;
 }
 
 /* footer */
@@ -280,6 +309,10 @@ footer {
 .text_super {
   color: #0072ce;
   font-size: 14px;
+}
+
+.text_shadow {
+  text-shadow: -1px -1px 10px rgba(0,0,0,1);
 }
 
 /* backgrounds */
