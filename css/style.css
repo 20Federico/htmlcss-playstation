@@ -74,7 +74,8 @@ footer a:hover {
 
 .my_dropdown_menu {
   position: absolute;
-  top: -200px;
+  top: 100%;
+  transform: translateY(-175%);
   left: 0;
   right: 0;
   list-style: none;
@@ -83,7 +84,7 @@ footer a:hover {
   transition: all 1s;
 }
 .nav-item .nav-link:focus + .my_dropdown_menu {
-  top: 100%;
+  transform: translateY(0);
   padding: .5rem 0;
 }
 
@@ -156,6 +157,7 @@ footer a:hover {
 
 .my_card_v2 img {
   margin-bottom: 15px;
+  padding: 15px;
 }
 
 .card_description {
